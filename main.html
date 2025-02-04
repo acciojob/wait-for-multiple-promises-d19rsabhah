@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-
 <html>
   <head>
+    <title>Promise Timing Table</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -12,16 +12,22 @@
   </head>
 
   <body>
-    <!-- the entire body must be written by student -->
-    <table class="table table-striped table-hover table-bordered">
-      <thead>
-        <tr>
-          <th>Promise Name</th>
-          <th>Time taken (s)</th>
-        </tr>
-      </thead>
-      <tbody id="output"></tbody>
-    </table>
+    <div class="container mt-5">
+      <h2 class="text-center">Promise Execution Time</h2>
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>Promise Name</th>
+            <th>Time Taken (s)</th>
+          </tr>
+        </thead>
+        <tbody id="output">
+          <tr>
+            <td colspan="2" class="text-center">Loading...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <script type="text/javascript" src="./script.js"></script>
     <script
